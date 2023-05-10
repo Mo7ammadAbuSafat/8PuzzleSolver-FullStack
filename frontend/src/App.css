@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+}
+.tile {
+  box-sizing: border-box;
+  width: 33.33%;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 3em;
+  color:rgba(0, 0, 0, 0.685)
+}
+
+.tile.blank {
+  background-color: lightgray;
+  cursor: default;
+}
