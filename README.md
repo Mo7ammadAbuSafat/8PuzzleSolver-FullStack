@@ -11,6 +11,7 @@
 - [Technologies Used](#technologies-used)
 - [Algorithms](#algorithms)
 - [Contributing](#contributing)
+- [License](#license)
 - [Contact](#contact)
 
 ## Description
@@ -70,6 +71,11 @@ Contributions to this project are welcome! If you find any bugs or have suggesti
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin feature/my-new-feature`
 5. Submit a pull request.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
 ## Contact
