@@ -92,7 +92,7 @@ const Puzzle = ({ state }) => {
         setIsDisabled(false);
         clearInterval(intervalId);
       }
-    }, 200);
+    }, 400);
     setIsLoading(false);
   };
 
@@ -114,7 +114,12 @@ const Puzzle = ({ state }) => {
   });
 
   return (
-    <Stack width={300} p={5} boxShadow={12} margin={"20px auto"}>
+    <Stack
+      width={300}
+      padding={"40px 40px 20px 40px"}
+      boxShadow={12}
+      margin={"20px auto"}
+    >
       <Stack direction={"row"} flexWrap={"wrap"}>
         {tiles}
       </Stack>
@@ -155,7 +160,7 @@ const Puzzle = ({ state }) => {
             onChange={handleChangeAlgorithm}
             sx={{ width: "100%", height: "40px" }}
           >
-            <MenuItem value={"A*"}>A*</MenuItem>
+            <MenuItem value={"A*"}>A* Search</MenuItem>
             <MenuItem value={"Greedy Best First Search"}>
               Greedy Best First Search
             </MenuItem>
@@ -172,7 +177,7 @@ const Puzzle = ({ state }) => {
           >
             <MenuItem value={"Euclidean"}>Euclidean distance</MenuItem>
             <MenuItem value={"Manhattan"}>Manhattan distance</MenuItem>
-            <MenuItem value={"True False"}>True False</MenuItem>
+            <MenuItem value={"True False"}>Right Place or Not</MenuItem>
           </Select>
         </Grid>
         <Grid item xs={12} p={1}>
