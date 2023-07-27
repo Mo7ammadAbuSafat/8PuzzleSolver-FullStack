@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
 2. Start the backend server: `python app.py`
 3. Start the frontend development server: `npm start`
 4. Open your browser and go to `http://localhost:3000` to access the website.
-5. Randomize the board by clicking the "Randomize Board" button.
+5. Randomize the board.
 6. Choose a search algorithm from the available options (A*, Uniform Cost Search, Greedy Search, BFS, DFS).
 7. Select a distance function (Euclidean or Manhattan).
 8. Click the "Solve" button to see the algorithm in action.
