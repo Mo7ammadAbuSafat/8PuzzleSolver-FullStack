@@ -28,7 +28,7 @@ https://github.com/Mo7ammadAbuSafat/8PuzzleSolver-FullStack/assets/103439731/b7b
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Mo7ammadAbuSafat/8PuzzleSolver-FullStack.git`
+1. Clone the repository: 
 2. Navigate to the project directory: `cd 8PuzzleSolver-FullStack`
 
 <!-- If there are specific backend and frontend installation steps, mention them here -->
